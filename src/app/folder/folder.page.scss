@@ -2,13 +2,12 @@ ion-menu-button {
   color: var(--ion-color-primary);
 }
 
+
+
 #container {
-  text-align: center;
-  position: absolute;
+  position: relative;
   left: 0;
   right: 0;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
 #container strong {
@@ -26,3 +25,10 @@ ion-menu-button {
 #container a {
   text-decoration: none;
 }
+
+#container ion-item-sliding#item100 ion-item ion-label {
+  padding-top: 20px;
+  height: 80px;
+}
+
+

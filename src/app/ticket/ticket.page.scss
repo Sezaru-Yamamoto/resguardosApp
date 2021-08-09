@@ -1,0 +1,59 @@
+ion-menu-button {
+    color: var(--ion-color-primary);
+  }
+  
+  #container {
+    position: relative;
+    left: 0;
+    right: 0;
+  }
+  
+  #container strong {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  #container p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #8c8c8c;
+    margin: 0;
+  }
+  
+  #container a {
+    text-decoration: none;
+  }
+
+  #container #title {
+    padding: 20px 0px 0px 15px;
+    font-weight: bold;
+  }
+
+  div#ticket, div#worker {
+    padding: 5px 0 20px 0;
+    border-bottom: 1px solid var(--ion-color-step-150, #d7d8da);
+  }
+
+  #container ion-item {
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+  }
+
+  #container div#equipment{
+   overflow-x: auto;
+   white-space: nowrap;
+   margin-bottom: 10px;
+  }
+
+  #container div#equipment ion-item {
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+    width: 198px;
+    display: inline-block;
+  }
+
+  #container ion-button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
